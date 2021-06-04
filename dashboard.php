@@ -35,7 +35,7 @@
 		<div class="alert alert-block alert-success">
 			<button type="button" class="close" data-dismiss="alert"><i class="ace-icon fa fa-times"></i></button>
 			<i class="ace-icon fa fa-check green"></i>
-			Welcome to<strong class="green"> Dinas Pemuda dan Olahraga Provinsi Kalimantan Tengah</strong>. Aplikasi Sistem Informasi Kepegawaian. Dikembangkan oleh <a href="http://www.dispora.kalteng.go.id/" target="_blank">DISPORA KALTENG</a><i class="ace-icon fa fa-phone"></i> +62 852 4848 7470
+			Welcome to<strong class="green"> Dinas Pemuda dan Olahraga Provinsi Kalimantan Tengah</strong>. Aplikasi Sistem Informasi Kepegawaian.
 		</div>
 		<div class="row">
 			<div class="col-sm-12 infobox-container">

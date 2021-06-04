@@ -1,6 +1,6 @@
 <?php
 	//localhost
-	/* 
+	
 	$Open = mysql_connect("localhost","root","");
 		if (!$Open){
 		die ("Koneksi ke Engine MySQL Gagal !<br>");
@@ -9,8 +9,9 @@
 		if (!$Koneksi){
 		die ("Koneksi ke Database Gagal !");
 		}
-	*/	
+		
 	//server
+	/* 
 	$Open = mysql_connect("mahadewa","math3328","ayamgoreng2790");
 		if (!$Open){
 		die ("Koneksi ke Engine MySQL Gagal !<br>");
@@ -19,4 +20,5 @@
 		if (!$Koneksi){
 		die ("Koneksi ke Database Gagal !");
 		}
+		*/
 ?>
