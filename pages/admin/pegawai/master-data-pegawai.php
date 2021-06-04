@@ -34,8 +34,8 @@
 	include "config/koneksi.php";
 	$ceknip	=mysql_num_rows (mysql_query("SELECT nip FROM tb_pegawai WHERE nip='$_POST[nip]'"));
 	
-		if (empty($_POST['nip']) || empty($_POST['nama']) || empty($_POST['tempat_lhr']) || empty($_POST['tgl_lhr']) || empty($_POST['agama']) || empty($_POST['jk']) || empty($_POST['gol_darah']) || empty($_POST['status_nikah']) || empty($_POST['status_kepeg']) || empty($_POST['tgl_naikpangkat']) || empty($_POST['tgl_naikgaji'])) {
-			$_SESSION['pesan'] = "Oops! Please fill all column...";
+		if (empty($_POST['nip']) || empty($_POST['nama'])) {
+			$_SESSION['pesan'] = "Oops! Please fill nip and nama column...";
 			header("location:home-admin.php?page=form-master-data-pegawai");
 		}
 		else if($ceknip > 0) {

@@ -36,9 +36,9 @@
 	<div class="col-xs-12">
 		<form action="home-admin.php?page=master-data-pegawai&id_peg=<?=$id_peg?>" class="form-horizontal" method="POST" enctype="multipart/form-data" >
 			<div class="form-group">
-				<label class="col-sm-3 control-label no-padding-right">NIP</label>
+				<label class="col-sm-3 control-label no-padding-right">NIP / NRPK</label>
 				<div class="col-sm-6">
-					<input type="text" name="nip" maxlength="24" placeholder="NIP" class="col-xs-10 col-sm-12"/>
+					<input type="text" name="nip" maxlength="24" placeholder="NIP / NRPK" class="col-xs-10 col-sm-12"/>
 				</div>
 			</div>
 			<div class="form-group">
